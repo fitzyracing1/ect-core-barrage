@@ -1,2 +1,5 @@
 # ect-core-barrage
-Barrage plain-language clone of fitzyracing1/ect-core
+
+Barrage clone of [fitzyracing1/ect-core](https://github.com/fitzyracing1/ect-core).
+
+Read [listing.barrage](listing.barrage).

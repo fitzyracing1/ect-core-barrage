@@ -1,0 +1,40 @@
+# ect-core
+
+> Compute-time-backed token boilerplate on the Bitcoin Core integration/staging tree.
+
+## Purpose
+Explain ect-core as a token sketch tied to compute time, sitting on a Bitcoin Core staging tree. Source: fitzyracing1/ect-core.
+
+## How it works (plain English)
+1. Start from the Bitcoin Core integration/staging tree.
+2. Treat compute time as the backing idea for the token.
+3. Keep this repo as boilerplate, not a live coin.
+
+## Key ideas
+- Compute-time-backed (time spent computing as the named backing)
+- Token boilerplate (a starter, not a launched coin)
+- Bitcoin Core staging tree (the code base it sits on)
+
+## The actual code
+```
+# source: fitzyracing1/ect-core
+tree = bitcoin_core_staging()
+token = compute_time_backed(tree)
+```
+
+## Line-by-line translation
+1. bitcoin_core_staging() → “use that tree as the base”
+2. compute_time_backed(tree) → “name compute time as the backing idea”
+
+## Decisions the program makes
+- If someone treats this as a live coin → correct: it is boilerplate
+- If compute time is missing → the backing idea is empty
+
+## What a person would notice
+A token sketch on a Core tree, not an exchange listing.
+
+## Current status
+Barrage clone.
+
+## Next possible steps
+Open the source and read the boilerplate.
